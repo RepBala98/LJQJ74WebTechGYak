@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Szókirakó játék</title>
+ </head>
+ <body>
+
+ <h2>Szókirakó játék</h2>
+  
+
+<font size="5" >
+	<em>Adott egy 4*9-es négyzetháló.</em> A <strong>program</strong> megad egy - a négyzetháló feletti képhez kapcsolódó - szót vagy, mondatot, majd ennek betűit <font color="blue">összekeverve</font> elhelyezi ebben a négyzethálóban.
+	<p align="center"><strong>A játékos feladata az, hogy az összekevert betűkből kirakja a szót</strong></p> <p align="right"> vagy mondatot a kijelölt helyen. <u>A betűket vízszintes vagy függőleges irányban egyenként</p> <p align="right">lehet mozgatni.</p></u>
+	
+	<p align="center">Ha a betű útját elállja egy másik betű, akkor az csak a másik betűig tolódik el.</p>
+	
+	Miután sikerült a betűket a megfelelő helyre mozgatni, a program ezt jelzi, ha viszont valamelybetűjet felcseréltük, <em>akkor azokra színkiemeléssel hívja fel a </em><font size="orange">figyelmünket.</font>
+ </font>
+
+
+
+
+
+
+
+ </body>
+</html>
