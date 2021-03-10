@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Szövegformázás: bekezdés, igazítások</title>
+ </head>
+ <body bgcolor="#99ff99" background="kepek/hatter1.jpg">
+
+
+
+ <h2>Háttérszín, háttérkép beillesztése</h2>
+
+    <h3>Mi az információ?</h3>
+    <br>
+
+ <p align="center">
+ <font size="5" color="blue">
+ Az információ olyan fontos hír, tudósítás, ismeret, amely az emberben valamilyen bizonytalanságot, ismeretlenséget szüntet meg, old fel.<br> 
+ <span style="border-bottom-style: double;"> Azokat az információkat, amelyekből valamilyen konkrét tényt tudunk meg <strong>adatnak</strong> is nevezzük.</span><br> Tehát az információ értelmezett adat.</font>
+ </p>
+
+	<h3>Mi az információ?</h3>
+    <br>
+    <div style="text-align:justify; width:400px">
+    <font style="color:black; font-size:14pt">
+    Az információkat <strong>jelek</strong> segítségével rögzítjük. A jelek nagyon sokfélék lehetnek. Vannak oylan egyszerű jelek, amiket majdnem mindenki megért (pl.: integetés búcsúzáskor. Vannak olyan jelek is, amiket az embereknek csak egy csoportja ért. Ilyen jelekből állnak a titkosírások, de sok más jelet is csakl tanulás és gyakorlás után értünk meg <font size="3">(Morze, jelzőtáblák, jelnyelv, stb.)</font>.
+    A jelekkel rögzített információkat csak akkor értkük, csak akkor tudjuk "venni", ha ismerjük a jelek <font color="#ff0000">jelentését.</font>
+    </font>
+    </div>
+
+
+
+
+
+
+
+
+
+  
+ </body>
+</html>
