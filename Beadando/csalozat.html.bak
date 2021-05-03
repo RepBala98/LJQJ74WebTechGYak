@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #663399;
+  color: white;
+}
+
+/*header méret*/
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #663399;
+  color: white;
+}
+
+/*home gomb színe*/
+.navbar a.right {
+  background-color: #000000;
+  color: white;
+}
+
+ /*jobb oldal*/
+.row {  
+  display: -ms-flexbox;  
+  display: flex;
+  -ms-flex-wrap: wrap;  
+  flex-wrap: wrap;
+}
+
+/*bal oldal szine*/
+ .side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* lábléc */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div class="header">
+  <h1>Hálózatok tervezése és szimulációja</h1>
+  
+</div>
+
+<div class="navbar">
+  <a href="indecs.html" class="active">Home</a>
+  <a href="csvillved.html">Villamos védelmek</a>
+  <a href="autocselektro.html">Autóelektronika</a>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>Hálózatok tervezése</h2>
+    
+    <img src="kepek2/vez1.jpg" height="200" border="0" alt." style="float:center">
+
+   
+    <div class="" style="height:60px;"></div><br>
+    <div class="" style="height:60px;"></div><br>
+    <div class="" style="height:60px;"></div>
+  </div>
+
+
+
+  <div class="main">
+    <h2>Tárgy leírás</h2>
+
+	<font style="font-size:14pt">
+	A hálózatok tervezése és szimulációja mint a nevében is látható a hálózatok tervezésével és ennek további alap számításaival valamint ezen megtervezett hálózatok szimulációjával foglalkozik. A félév során nem csak a tervezéssel hanem a hálózatok engedélyeztetésével is foglalkozhatunk. A szimulációk alatt egy Eplan nevezetű szoftverfejlesztő programmal is foglallkozhatunk. Megtanulhatjuk benne a számítógépen keeresztüli villamoshálózat tervezését valamint a kész hálózat egyes részenek 2D és/vagy 3D-s megvalósítását.
+
+	<br><br>
+	
+	A tantárgy teljesítéséhez a követelmény egy elméletben működő villamos tervezés. 3 db motort kell villamos árammal ellátni és ezeknek a motorokhoz a vezeték méretezést és a hozzájuk megfelelő védelmek kialakítása. Későbbiekben pedig egy zárthelyi a 13. héten, amely 50% alaphatárral rendelkezik ez alatt pót zh szükséges. A kész program és a 4-5 érdemjegyre megírt zh után 4-5 megajánlott jegy adható a szorgalmi időszak végén.
+    </font> 
+
+	<br><br>
+	
+
+	<img src="kepek2/eplan.jpg" height="450" border="0" alt." style="float:center">
+
+
+	</div>
+	</div>
+
+	<div class="footer">
+		<h2>Forrás</h2>
+		<h3>
+		
+ 
+		 Gyenes "Kinek haja egyenes" Bálint Dániel<br> <br>Miskolci Egyetem, 2021
+	 </h3>
+	</div>
+
+</body>
+</html>

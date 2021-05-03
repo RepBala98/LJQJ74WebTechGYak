@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+
+<meta charset="UTF-8">  
+
+<style>
+body {
+  font-family: color:white; font-family:tahoma; font-family:12pt;
+  margin: 0;
+  background-color:#003366;
+}
+
+.header {
+  padding: 30px;
+  
+  text-align: center;
+  background-image: url('kepek2/cs1.png');
+  color: white;
+  width:100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+/*doboz szín és elhelyezkedés*/
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 50px;
+  padding: 8px;
+}
+
+/*árnyékolás*/
+.card {
+  box-shadow: 2px 4px 4px 2px;
+  margin: 8px;
+}
+
+
+.container {
+  padding: 5px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display:table;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #99cc66;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #ffff00;
+}
+
+.footer {
+  padding: 50px;
+  text-align: center;
+  background-image: url('kepek2/space.jpg');
+}
+
+@media screen and (max-width: 200px) {
+  .column {
+    width: 100%;
+    display: box;
+  }
+}
+</style>
+
+</head>
+
+
+
+<body>
+
+<table> 
+
+
+<div class="header">
+<font size="6pt"; color="white">
+
+  <b>Üdvözlöm a saját gyártású weboldalamon/honlapomon!</b>
+
+ <br>
+ <a href="https://www.uni-miskolc.hu/" target="blank">
+ <img src="kepek2/cimer.png" height="100" border="0" alt." style="float:right"></a>
+ <a href="http://gepesz.uni-miskolc.hu/" target="blank">
+ <img src="kepek2/geik.png" height="100" border="0" alt." background="cs.jpg" style="float:left"><br><br></a>
+ 
+
+ Ezt a weblapot a Webtech tantárgy óra keretein belül készítettem a HTML segítségével!<br>
+  
+</div>
+</font>
+
+
+<h2 style="text-align:center; color:white">Néhány tantárgy a Miskolci egyetem harmadéves villamosmérnök hallgatóinál</h2>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="kepek2/eplan1.jpg" height="300" alt="" style="width:100%">
+      <div class="container">
+        <h2 style="color:white">Hálózatok tervezése és szimulációja</h2>
+         
+
+        <p><button class="button">
+		<a href="csalozat.html" target="_self">
+			<font style="color:black; text-decoration:none">Hálózatok tervezése és szimulációja</font>
+			</a>
+
+        </button></p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="kepek2/fiesta.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2 style="color:white">Autoelektronika</h2> 
+ 
+        <p><button class="button">
+
+		<a href="autocselektro.html" target="_self">
+		<font style="color:black; text-decoration:none">Bevezetés az autoelektroba</font>
+		</a>
+
+		</button></p>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="kepek2/vedelem.jpg" alt="" style="width:100%">
+      <div class="container">
+       <h2 style="color:white">Villamos védelmek és autómatikák</h2>  
+       
+        
+        <p><button class="button">
+		
+		<a href="csvillved.html" target="_self">
+		<font style="color:black; text-decoration:none">Villamos védelmek és automatikák</font>
+		</a>
+
+        </button></p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+	
+	<div class="footer">
+		<font size="" color="white">&copy; Minden jog fenntartva! <br>
+		Gépészmérnöki és Informatikai Kar<br>
+		Miskolci egyetem, 2021<br>
+		Repei Balázs, LJQJ74</font>
+
+		<br><br><br>
+		
+		</div>
+
+</table>
+
+</body>
+</html>
