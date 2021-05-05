@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+  <head>
+    <title>Audió lejátszás</title>
+    <meta charset="UTF-8">
+
+	<style>
+	article,section, aside,nav, header,footer
+	{
+	display:block
+	}
+	
+	.fejlec
+	{
+	font-size: 18pt;
+	font-family:Hellvettica;
+margin-top:28px;
+margin-bottom:20px;
+font-weight:bold;
+}
+.urlap
+	{
+	padding: 30px;
+	font-size: 12pt;
+	font-family:Hellvettica;
+	background:#66ccff;
+	width:500px;
+	height:300px;
+	border-radius:18px;
+	box-shadow:5 px 5px 10px #ffcc33
+}
+.lablec
+	{
+	width: 560px
+	font-size: 10pt;
+	font-family:Hellvettica;
+margin-top:40px;
+border-top:3px #ff0000;
+padding-top:30px;
+text-align:right;
+}
+
+</style>
+	
+
+  </head>
+
+  <body>
+
+    <header id="fejlec" class="fejlec">
+     Audió lejátszása
+    </header>
+
+
+    <section id="tartalom">
+
+<audio id="zene" controls style="width 800px">
+<source src="jazzy.mp3" type="audio/mpeg"/>
+A böngésződ nem támogatja a HTML audió lejátszását.
+</audio>
+
+<audio id="effekt">
+<source src="yes.mp3" type="audio/mpeg"/>
+A böngésződ nem támogatja a HTML audió lejátszását.
+</audio>
+
+<button onclick="playPause()">lejátszás szünet
+</button>
+&nbsp;&nbsp;&nbsp;
+<button onclick="effektm.scr='yes.mp3'; effektm.play()">pozitív
+</button>
+<button onclick="effektm.scr='no.mp3'; effektm.play()">negatív
+</button>
+<br><br>
+<button onClick="zenem.volume=0">néma
+</button>
+<button onClick="zenem.volume=0.2">halk
+</button>
+<button onClick="zenem.volume=1">hangos
+</button>
+&nbsp;&nbsp;&nbsp;
+<button onClick="zenem.playbackRate=0.2">nagyon lassú
+</button>
+<button onClick="zenem.playbackRate=0.5">lassú
+</button>
+<button onClick="zenem.playbackRate=1">normál
+</button>
+<button onClick="zenem.playbackRate=2">gyors
+</button>
+<button onClick="zenem.playbackRate=4">nagyon gyors
+</button>
+<br><br>
+
+<button onClick="alert(zenem.ended)">befejeződött-e?
+</button>
+<button onClick="alert(zenem.duration)">audió hossza
+</button>
+<button onClick="alert(zenem.currentTime)">jelenlegi pozicó
+</button>
+<button onClick="zenem.currentTime=90">ugrás másfél perchez
+</button>
+</section>
+
+
+<!-- <form id="urlap" name="urlap" novalidate>
+
+<form id="urlap" name="urlap" action="feldolgozo2.php" method="GET" target="_self">
+
+
+
+Név: <input type="text" id="nev" name="nev" placeholder="írd be a neved" autofocus autocomplete="off" required pattern="[a-Z;öüóőúéáűíÖÜÓŐÚÉÁŰÍ] {5,20}" />
+<br><br>
+PIN kód: <input type="text" id="kod" name="kod" placeholder="írd be a PIN kódod" autocomplete="off" required pattern="[0-9]{4}" />
+
+
+
+</form>
+
+
+
+<br><br><br>
+
+<input type="submit" value="ELKÜLDÖM" form="urlap"  action="feldolgozo1.php" formmethod="POST"/>
+&nbsp;&nbsp;&nbsp;
+<input type="submit" value="Elküldöm ellenőrzés nélkül" form="urlap" formnovalidate formtarget="ujablak"/>
+
+
+
+</section>
+      <article id="cikk1">
+         <header id="cikk1_fejlec">...</header>
+         <section id="cikk1_tartalom">...</section>
+         <footer id="cikk1_lablec">...</footer>
+      </article>
+      
+      <article id="cikk2">
+         <header id="cikk2_fejlec">...</header>
+         <section id="cikk2_tartalom">...</section>
+         <footer id="cikk2_lablec">...</footer>
+      </article>
+      
+      <article id="cikk3">
+         <header id="cikk3_fejlec">...</header>
+         <section id="cikk3_tartalom">...</section>
+         <footer id="cikk3_lablec">...</footer>
+      </article>
+      
+      <article id="cikk4">
+         <header id="cikk4_fejlec">...</header>
+         <section id="cikk4_tartalom">...</section>
+         <footer id="cikk4_lablec">...</footer>
+      </article>
+
+    </section>
+
+
+    <aside id="oldalsav">
+      <section id="doboz1">...</section>
+      <section id="doboz2">...</section>
+      <section id="doboz3">...</section>
+    </aside>
+
+-->
+    <footer id="lablec" class="lablec">
+   
+    
+
+    Forrás: <a href="http://html5doctor.com/html5-forms-introduction-and-new-attributes" target="ujablak">
+	http://html5doctor.com/html5-forms-introduction-and-new-attributes
+	</a>
+<br><br>
+	Formátumok:<a href="http.html5pattern.com" target="ujablak"> http://html5pattern.com </a> 
+<br><br>
+	JavaScript REGEXP: <a href="http://www.w3schools.com/js/js_regexp.asp" target="ujablak">http://www.w3schools.com/js/js_regexp.asp
+
+</footer>
+
+<script>
+var zenem = document.getElementById("zene");
+var effektem = document.getElementById("effekt");
+
+
+
+zenem.onended = function() {
+alert("VÉGE");
+};
+
+function playPause() {
+if (zenem.paused)
+zenem.play();
+else
+zenem.pause();
+}
+
+
+
+</script>
+  </body>
+
+</html>
